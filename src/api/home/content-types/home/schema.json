@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "academic_courses": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::academic-course.academic-course"
-    },
     "achievements": {
       "type": "relation",
       "relation": "oneToMany",
@@ -32,11 +27,6 @@
     },
     "heroDescription": {
       "type": "string"
-    },
-    "academic_course": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::academic-course.academic-course"
     }
   }
 }
