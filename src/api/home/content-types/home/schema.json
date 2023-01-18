@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "academic_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::academic-course.academic-course"
+    },
+    "achievements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::achievement.achievement"
+    },
+    "faculties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faculty.faculty"
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "string"
+    },
+    "academic_course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-course.academic-course"
+    }
+  }
+}

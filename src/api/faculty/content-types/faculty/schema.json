@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faculties",
+  "info": {
+    "singularName": "faculty",
+    "pluralName": "faculties",
+    "displayName": "faculties"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mobileNumber": {
+      "type": "integer"
+    },
+    "profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "researchAreas": {
+      "type": "text"
+    }
+  }
+}
