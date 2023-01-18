@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 module.exports = {
   /**
@@ -8,7 +8,7 @@ module.exports = {
    * This gives you an opportunity to extend code.
    */
   register(/*{ strapi }*/) {},
-
+  //sdfs
   /**
    * An asynchronous bootstrap function that runs before
    * your application gets started.
