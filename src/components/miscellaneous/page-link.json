@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_miscellaneous_page_links",
+  "info": {
+    "displayName": "Page Link"
+  },
+  "options": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "pageLink": {
+      "type": "string"
+    }
+  }
+}

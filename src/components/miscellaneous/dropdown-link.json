@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_miscellaneous_dropdown_links",
+  "info": {
+    "displayName": "Dropdown Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "miscellaneous.page-link"
+    },
+    "pageName": {
+      "type": "string"
+    }
+  }
+}
